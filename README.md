@@ -29,7 +29,7 @@ go install -v github.com/okpalindrome/dkube@latest
 
 ### Usage
 ```
-$ go run main.go --help
+$ dkube --help
 Usage of dkube:
   -destination string
         Destination directory/folder to save.
