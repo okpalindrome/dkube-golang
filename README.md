@@ -1,6 +1,6 @@
 # dkube
 
-To crawl all the static information from a specific namespace in Kubernetes. 
+Crawl the static information from a specific namespace in Kubernetes. 
 
 - Get all unique Docker images.
 - List all actively used resources.
@@ -9,12 +9,12 @@ To crawl all the static information from a specific namespace in Kubernetes.
 
 ```
 -- namespace
-   docker_images.txt
-   active_resources.txt
+      docker_images.txt
+      active_resources.txt
    -- resource 1
-      manifest_resource_name.yaml
+            manifest_resource_name.yaml
    -- resource 2
-      manifest_resource_name.yaml
+            manifest_resource_name.yaml
 ```
 
 - This acts as a snapshot of the environment.
